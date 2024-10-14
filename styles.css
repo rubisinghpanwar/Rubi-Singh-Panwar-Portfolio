@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(238, 237, 235);
+    color: rgb(47, 54, 69);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+/* #body-1 {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+#body-2 {
+    flex: 3;
+} */
+
+nav {
+    background-color: rgb(230, 185, 166);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content:center;
+    gap: 5rem;
+}
+
+/* #nav-main {
+    height: 10%;
+}
+
+#nav-projects {
+    height: 10%;
+}
+
+#nav-contact {
+    height: 10%;
+}
+
+#nav-badge {
+    height: 10%;
+} */
+
+.orange {
+    color: rgb(255, 101, 0);
+}
